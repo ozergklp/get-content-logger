@@ -1,0 +1,23 @@
+{
+  "name": "get-content-logger",
+  "version": "1.1.2",
+  "description": "enables easy exploration of directory contents and offering snapshot capabilities for efficient tracking",
+  "main": "common.cjs", 
+  "module": "module.mjs",
+  "exports": {
+    ".": {
+      "import": "./module.mjs", 
+      "require": "./common.cjs" 
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["file", "snapshot", "logging", "content", "tracking"],
+  "author": "ozergklp",
+  "license": "MIT",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
